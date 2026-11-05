@@ -3,8 +3,8 @@
 // - Everything else (other systems' models, data, descriptions) is stored the first time it is
 //   used, or all at once with Settings → "Download everything for offline use".
 // - Stored data is served instantly and refreshed in the background when online.
-const VERSION = "mw3ux274";
-const SHELL = ["assets/index-BeoS50N0.css","assets/index-DqPDc4hd.js","data/catalog.json","data/i18n/languages.json","data/i18n/names-la.json","data/i18n/ta2.json","data/region-presets.json","draco/draco_decoder.js","draco/draco_decoder.wasm","draco/draco_wasm_wrapper.js","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest","models/skeletal.glb"];
+const VERSION = "mw3vv6ra";
+const SHELL = ["assets/index-D1ukp6_N.js","assets/index-L_0KIjlw.css","data/catalog.json","data/i18n/languages.json","data/i18n/names-la.json","data/i18n/ta2.json","data/region-presets.json","draco/draco_decoder.js","draco/draco_decoder.wasm","draco/draco_wasm_wrapper.js","icons/apple-touch-icon.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest","models/skeletal.glb"];
 const SHELL_CACHE = `anatomix-shell-${VERSION}`;
 const DATA_CACHE = "anatomix-data-v1";
 

@@ -1,0 +1,8501 @@
+{
+ "_meta": {
+  "description": "Structured facts for muscles. Keyed by English base name (catalog.json `base`). Each field is { value, source } or { value: null, status: 'TODO' }. source 'z-anatomy' = derived automatically from Z-Anatomy attachment areas; anything else (e.g. 'expert:<name>', a textbook or Wikidata reference) is kept when the file is rebuilt.",
+  "fields": {
+   "origin": "Bones carrying the muscle's origin area (Z-Anatomy).",
+   "insertion": "Bones carrying the muscle's insertion area (Z-Anatomy).",
+   "movementCategory": "Z-Anatomy colour-code category of the attachment areas, e.g. Flexion. Not a full description of the action.",
+   "action": "TODO: expert to fill.",
+   "nerveSupply": "TODO: expert to fill.",
+   "bloodSupply": "TODO: expert to fill."
+  },
+  "generated": "2026-11-03"
+ },
+ "entries": {
+  "Abdominal part of pectoralis major muscle": {
+   "origin": {
+    "value": [
+     "Costal cartilage of seventh rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Abductor digiti minimi of foot": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of fifth finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the toes"
+    ],
+    "source": "wikidata:Q1089155#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Abductor digiti minimi of hand": {
+   "origin": {
+    "value": [
+     "Pisiform bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of fifth finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the fingers"
+    ],
+    "source": "wikidata:Q659744#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Abductor hallucis": {
+   "origin": {
+    "value": [
+     "Calcaneus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of first finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the toes"
+    ],
+    "source": "wikidata:Q1475923#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Abductor pollicis brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "abduction of the thumb"
+    ],
+    "source": "wikidata:Q337824#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Abductor pollicis longus": {
+   "origin": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "First metacarpal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the thumb"
+    ],
+    "source": "wikidata:Q915948#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Acromial part of deltoid muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Adductor brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "adducting of the hip joint"
+    ],
+    "source": "wikidata:Q1551135#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Adductor hallucis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Adductor longus": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adducting of the hip joint"
+    ],
+    "source": "wikidata:Q1428231#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Adductor magnus": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adducting of the hip joint"
+    ],
+    "source": "wikidata:Q478040#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Adductor minimus": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Adductor pollicis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Capitate bone",
+     "Proximal phalanx of first finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the thumb"
+    ],
+    "source": "wikidata:Q1065866#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Anconeus muscle": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the elbow joint"
+    ],
+    "source": "wikidata:Q526403#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Anterior belly of digastric muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Mastication"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Articularis genus muscle": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Ary-epiglottic part of oblique arytenoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Ascending part of trapezius muscle": {
+   "origin": {
+    "value": [
+     "Clavicle"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Biceps brachii muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the arm at the shoulder joint",
+     "flexion of the elbow joint",
+     "supination of the forearm"
+    ],
+    "source": "wikidata:Q201363#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Biceps femoris muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Fibula"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the hip joint",
+     "flexion of the knee joint",
+     "lateral rotation of the tibia at the knee joint"
+    ],
+    "source": "wikidata:Q601016#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Brachialis muscle": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the elbow joint"
+    ],
+    "source": "wikidata:Q752441#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Brachioradialis muscle": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the elbow joint",
+     "pronation of the forearm",
+     "supination of the forearm"
+    ],
+    "source": "wikidata:Q385484#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Bucinator": {
+   "origin": {
+    "value": [
+     "Mandible",
+     "Maxilla"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Calcaneal tendon": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Cervical fasciae": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Clavicular head of pectoralis major muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Clavicular part of deltoid muscle": {
+   "origin": {
+    "value": [
+     "Clavicle"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Coccygeus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Common extensor tendon": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Common flexor tendon": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Common tendinous ring": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Coracobrachialis muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the arm at the shoulder joint",
+     "flexion of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q730359#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Corrugator supercilii": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "squint"
+    ],
+    "source": "wikidata:Q66571168#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Deep head of flexor pollicis brevis": {
+   "origin": {
+    "value": [
+     "First metacarpal bone",
+     "Trapezium bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Deep head of pronator teres": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Deep part of masseter": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Deltoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q130243#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Depressor anguli oris": {
+   "origin": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Depressor labii inferioris": {
+   "origin": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Depressor septi nasi": {
+   "origin": {
+    "value": [
+     "Maxilla"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Descending part of trapezius muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Diaphragm": {
+   "origin": {
+    "value": [
+     "Costal cartilage of tenth rib",
+     "Eleventh rib",
+     "Twelfth rib",
+     "Vertebra L1",
+     "Vertebra L2",
+     "Vertebra L3"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Diaphragm"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "inspiration movement"
+    ],
+    "source": "wikidata:Q9654#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Digastric muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Dorsal interossei muscles of hand": {
+   "origin": {
+    "value": [
+     "Fifth metacarpal bone",
+     "First metacarpal bone",
+     "Fourth metacarpal bone",
+     "Second metacarpal bone",
+     "Third metacarpal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the fingers"
+    ],
+    "source": "wikidata:Q11277687#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Epicranial aponeurosis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Epicranius muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Erector spinae": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "back extension",
+     "extension of the head",
+     "extension of the neck",
+     "lateral flexion of the head and neck",
+     "lateral flexion of the torso"
+    ],
+    "source": "wikidata:Q774933#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor carpi radialis brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Third metacarpal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction at the wrist joint",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q847458#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor carpi radialis longus": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Second metacarpal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers",
+     "Extension hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction at the wrist joint",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q847092#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor carpi ulnaris": {
+   "origin": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Triquetrum bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension hand-foot",
+     "Extension hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction at the wrist joint",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q527634#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor digiti minimi": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "extension of the fingers",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q19030#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor digitorum": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Middle phalanx of fifth finger of hand",
+     "Middle phalanx of fourth finger of hand",
+     "Middle phalanx of second finger of hand",
+     "Middle phalanx of third finger of hand",
+     "Proximal phalanx of fifth finger of hand",
+     "Proximal phalanx of fourth finger of hand",
+     "Proximal phalanx of second finger of hand",
+     "Proximal phalanx of third finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the fingers",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q901101#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor digitorum brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Middle phalanx of fourth finger of foot",
+     "Middle phalanx of second finger of foot",
+     "Middle phalanx of third finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the toes"
+    ],
+    "source": "wikidata:Q1688555#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor digitorum longus": {
+   "origin": {
+    "value": [
+     "Fibula",
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of fifth finger of foot",
+     "Distal phalanx of fourth finger of foot",
+     "Distal phalanx of second finger of foot",
+     "Distal phalanx of third finger of foot",
+     "Middle phalanx of fifth finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "dorsiflexion of the ankle joint",
+     "extension of the toes"
+    ],
+    "source": "wikidata:Q1684283#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor hallucis brevis": {
+   "origin": {
+    "value": [
+     "Calcaneus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor hallucis longus": {
+   "origin": {
+    "value": [
+     "Fibula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of first finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "dorsiflexion of the ankle joint",
+     "extension of the toes"
+    ],
+    "source": "wikidata:Q1446138#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor indicis": {
+   "origin": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of second finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q932883#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor pollicis brevis": {
+   "origin": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of first finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the thumb",
+     "extension of the thumb",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q901116#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Extensor pollicis longus": {
+   "origin": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of first finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the thumb",
+     "extension of the wrist joint"
+    ],
+    "source": "wikidata:Q574632#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "External abdominal oblique muscle": {
+   "origin": {
+    "value": [
+     "Eighth rib",
+     "Fifth rib",
+     "Hip bone",
+     "Seventh rib",
+     "Sixth rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "exhalation",
+     "flexion of the torso",
+     "lateral flexion of the torso",
+     "raising intra-abdominal pressure",
+     "rotation of the torso"
+    ],
+    "source": "wikidata:Q746123#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "External anal sphincter": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "External part of thyro-arytenoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fasciae": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fasciae of abdomen": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fasciae of head": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fasciae of lower limb": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fasciae of thorax": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fasciae of upper limb": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fibularis brevis muscle": {
+   "origin": {
+    "value": [
+     "Fibula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Fifth metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension hand-foot",
+     "Extension hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "eversion",
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q1723682#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fibularis longus muscle": {
+   "origin": {
+    "value": [
+     "Fibula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q1386945#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Fibularis tertius muscle": {
+   "origin": {
+    "value": [
+     "Fibula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Fifth metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension hand-foot",
+     "Extension hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "dorsiflexion of the ankle joint",
+     "eversion"
+    ],
+    "source": "wikidata:Q1757887#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor carpi radialis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "abduction at the wrist joint",
+     "flexion of the wrist joint"
+    ],
+    "source": "wikidata:Q914475#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor carpi ulnaris": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Pisiform bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction at the wrist joint",
+     "flexion of the wrist joint"
+    ],
+    "source": "wikidata:Q279039#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor digiti minimi of foot": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of fifth finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the toes"
+    ],
+    "source": "wikidata:Q476952#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor digiti minimi of hand": {
+   "origin": {
+    "value": [
+     "Hamate bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of fifth finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the fingers"
+    ],
+    "source": "wikidata:Q238607#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor digitorum brevis": {
+   "origin": {
+    "value": [
+     "Calcaneus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Middle phalanx of fifth finger of foot",
+     "Middle phalanx of second finger of foot",
+     "Middle phalanx of third finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the toes"
+    ],
+    "source": "wikidata:Q1328793#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor digitorum longus": {
+   "origin": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of fifth finger of foot",
+     "Distal phalanx of fourth finger of foot",
+     "Distal phalanx of second finger of foot",
+     "Distal phalanx of third finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the toes",
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q1892025#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor digitorum profundus": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of fifth finger of hand",
+     "Distal phalanx of fourth finger of hand",
+     "Distal phalanx of second finger of hand",
+     "Distal phalanx of third finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the fingers",
+     "flexion of the wrist joint"
+    ],
+    "source": "wikidata:Q840592#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor digitorum superficialis": {
+   "origin": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Middle phalanx of fifth finger of hand",
+     "Middle phalanx of fourth finger of hand",
+     "Middle phalanx of second finger of hand",
+     "Middle phalanx of third finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the fingers",
+     "flexion of the wrist joint"
+    ],
+    "source": "wikidata:Q847112#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor hallucis brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "flexion of the toes"
+    ],
+    "source": "wikidata:Q1719061#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor hallucis longus": {
+   "origin": {
+    "value": [
+     "Fibula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of first finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the toes",
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q1500559#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Flexor pollicis longus": {
+   "origin": {
+    "value": [
+     "Radius",
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Distal phalanx of first finger of hand"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the thumb"
+    ],
+    "source": "wikidata:Q901571#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Frontalis muscle": {
+   "origin": {
+    "value": [
+     "Frontal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Superficial"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Genioglossus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Geniohyoid muscle": {
+   "origin": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Hyoid bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Gluteus maximus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abducting of the hip joint",
+     "extension of the hip joint",
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q637545#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Gluteus medius muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abducting of the hip joint",
+     "internal rotation"
+    ],
+    "source": "wikidata:Q1126170#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Gluteus minimus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abducting of the hip joint",
+     "medially rotating the hip joint"
+    ],
+    "source": "wikidata:Q523799#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Gracilis muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adducting of the hip joint",
+     "flexion of the knee joint",
+     "medial rotation of the tibia at the knee joint"
+    ],
+    "source": "wikidata:Q1428669#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Humeral head of extensor carpi ulnaris": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Humeral head of flexor carpi ulnaris": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Humero-ulnar head of flexor digitorum superficialis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Hyoglossus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliacus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the hip joint",
+     "medially rotating the hip joint"
+    ],
+    "source": "wikidata:Q1508879#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliococcygeus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliocostalis colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Vertebra C4"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliocostalis lumborum muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliocostalis thoracis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliopectineal arch": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliopsoas muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Iliotibial tract": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inferior gemellus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q1892060#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inferior head of lateral pterygoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inferior oblique muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "rotation of the head on the neck"
+    ],
+    "source": "wikidata:Q1051437#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inferior pharyngeal constrictor": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inferior rectus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inferior tarsus": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Infraspinatus muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the arm at the shoulder joint",
+     "lateral rotation of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q19087#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Inguinal ligament": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Intermediate tendon of digastric muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Internal abdominal oblique muscle": {
+   "origin": {
+    "value": [
+     "Costal cartilage of tenth rib",
+     "Eleventh rib",
+     "Hip bone",
+     "Tenth rib",
+     "Twelfth rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "exhalation",
+     "flexion of the torso",
+     "lateral flexion of the torso",
+     "raising intra-abdominal pressure",
+     "rotation of the torso"
+    ],
+    "source": "wikidata:Q1334595#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Lateral crico-arytenoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Lateral head of flexor hallucis brevis": {
+   "origin": {
+    "value": [
+     "First metatarsal bone",
+     "Medial cuneiform bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of first finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Lateral head of gastrocnemius": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Lateral head of triceps brachii": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Lateral pterygoid muscle": {
+   "origin": {
+    "value": [
+     "Maxilla",
+     "Palatine bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Lateral rectus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Latissimus dorsi muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the arm at the shoulder joint",
+     "exhalation",
+     "extension of the arm via the shoulder joint",
+     "medial rotation of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q283673#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levator anguli oris": {
+   "origin": {
+    "value": [
+     "Maxilla"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levator ani": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Orbicular/Constrictor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levator labii superioris": {
+   "origin": {
+    "value": [
+     "Maxilla"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levator nasolabialis": {
+   "origin": {
+    "value": [
+     "Maxilla"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levator palpebrae superioris": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levator scapulae": {
+   "origin": {
+    "value": [
+     "Atlas (C1)",
+     "Axis (C2)",
+     "Vertebra C3",
+     "Vertebra C4"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the neck",
+     "lateral flexion of the neck",
+     "medial rotation of the pectoral girdle"
+    ],
+    "source": "wikidata:Q755141#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levatores breves costarum": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levatores costarum": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "inspiration movement"
+    ],
+    "source": "wikidata:Q531506#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Levatores longi costarum": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Eighth rib",
+     "Eleventh rib",
+     "Fifth rib",
+     "Fourth rib",
+     "Ninth rib",
+     "Second rib",
+     "Seventh rib",
+     "Sixth rib",
+     "Tenth rib",
+     "Third rib",
+     "Twelfth rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Linea alba": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Long head of biceps brachii": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q28792036#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Long head of biceps femoris": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Long head of triceps brachii": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the arm via the shoulder joint"
+    ],
+    "source": "wikidata:Q28792063#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Long plantar ligament": {
+   "origin": {
+    "value": [
+     "Calcaneus",
+     "First metatarsal bone",
+     "Fourth metatarsal bone",
+     "Second metatarsal bone",
+     "Third metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Ligament"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Longissimus capitis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Longissimus colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Longissimus thoracis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Eighth rib",
+     "Eleventh rib",
+     "Fifth rib",
+     "First rib",
+     "Fourth rib",
+     "Ninth rib",
+     "Second rib",
+     "Seventh rib",
+     "Sixth rib",
+     "Tenth rib",
+     "Third rib",
+     "Twelfth rib",
+     "Vertebra L1",
+     "Vertebra L2",
+     "Vertebra L3",
+     "Vertebra T1",
+     "Vertebra T10",
+     "Vertebra T11",
+     "Vertebra T12",
+     "Vertebra T2",
+     "Vertebra T3",
+     "Vertebra T4",
+     "Vertebra T5",
+     "Vertebra T6",
+     "Vertebra T7",
+     "Vertebra T8",
+     "Vertebra T9"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Longus capitis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the head",
+     "flexion of the neck"
+    ],
+    "source": "wikidata:Q1055786#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Longus colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "flexion of the neck"
+    ],
+    "source": "wikidata:Q1055797#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Masseter": {
+   "origin": {
+    "value": [
+     "Temporal bone",
+     "Zygomatic bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Medial head of flexor hallucis brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of first finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion fingers"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Medial head of gastrocnemius": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Medial head of triceps brachii": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Medial pterygoid muscle": {
+   "origin": {
+    "value": [
+     "Sphenoid bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Medial rectus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Mentalis muscle": {
+   "origin": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Middle pharyngeal constrictor": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Multifidus colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Multifidus lumborum muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Multifidus thoracis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Mylohyoid muscle": {
+   "origin": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Nasalis muscle": {
+   "origin": {
+    "value": [
+     "Nasal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Superficial"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Oblique head of adductor hallucis": {
+   "origin": {
+    "value": [
+     "Cuboid bone",
+     "Fourth metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Sesamoid bones of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction",
+     "Ligament"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Oblique head of adductor pollicis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Oblique part of cricothyroid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Obliquus inferior capitis muscle": {
+   "origin": {
+    "value": [
+     "Atlas (C1)"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Axis (C2)"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Obliquus superior capitis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the head",
+     "flexion of the head on the neck"
+    ],
+    "source": "wikidata:Q1051407#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Obturator externus": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q1756762#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Obturator internus": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q1500758#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Occipitalis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Superficial"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Omohyoid muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Hyoid bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Opponens digiti minimi muscle of foot": {
+   "origin": {
+    "value": [
+     "Fifth metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Opponens digiti minimi muscle of hand": {
+   "origin": {
+    "value": [
+     "Hamate bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "Opposition of the fingers"
+    ],
+    "source": "wikidata:Q1064676#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Opponens pollicis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "opposition of the thumb"
+    ],
+    "source": "wikidata:Q931622#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Orbicularis oris muscle": {
+   "origin": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Orbicular/Constrictor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Orbital part of orbicularis oculi": {
+   "origin": {
+    "value": [
+     "Maxilla"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Orbicular/Constrictor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Palatopharyngeus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Palmar aponeurosis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Palmaris longus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "flexion of the wrist joint"
+    ],
+    "source": "wikidata:Q672854#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Palpebral part of orbicularis oculi": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Patellar ligament": {
+   "origin": {
+    "value": [
+     "Patella"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pectineus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adducting of the hip joint",
+     "flexion of the hip joint",
+     "internal rotation"
+    ],
+    "source": "wikidata:Q1501677#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pectoralis major muscle": {
+   "origin": {
+    "value": [
+     "Clavicle"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the arm at the shoulder joint",
+     "extension of the arm via the shoulder joint",
+     "flexion of the arm at the shoulder joint",
+     "medial rotation of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q532798#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pectoralis minor muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Fifth rib",
+     "Fourth rib",
+     "Third rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "medial rotation of the pectoral girdle",
+     "protraction of the pectoral girdle"
+    ],
+    "source": "wikidata:Q757083#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pelvic diaphragm": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Piriformis muscle": {
+   "origin": {
+    "value": [
+     "Sacrum"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q1144893#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Plantar aponeurosis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Plantar interossei muscles": {
+   "origin": {
+    "value": [
+     "Fifth metatarsal bone",
+     "Fourth metatarsal bone",
+     "Third metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Proximal phalanx of fifth finger of foot",
+     "Proximal phalanx of fourth finger of foot",
+     "Proximal phalanx of third finger of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the toes"
+    ],
+    "source": "wikidata:Q2360339#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Plantaris muscle": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q526239#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Platysma": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Popliteus muscle": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the knee joint",
+     "medial rotation of the tibia at the knee joint"
+    ],
+    "source": "wikidata:Q1308051#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Posterior belly of digastric muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Posterior crico-arytenoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Procerus muscle": {
+   "origin": {
+    "value": [
+     "Frontal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Nasal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pronator quadratus": {
+   "origin": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "pronation of the forearm"
+    ],
+    "source": "wikidata:Q840572#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pronator teres": {
+   "origin": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the elbow joint",
+     "pronation of the forearm"
+    ],
+    "source": "wikidata:Q828232#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Psoas major": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "flexion of the hip joint",
+     "flexion of the torso",
+     "medially rotating the hip joint"
+    ],
+    "source": "wikidata:Q1550323#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pubo-analis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pubococcygeus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Pyramidalis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Quadratus femoris muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q1428240#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Quadratus lumborum muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "extension of the torso",
+     "lateral flexion of the torso"
+    ],
+    "source": "wikidata:Q1426052#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Quadratus plantae muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "flexion of the toes"
+    ],
+    "source": "wikidata:Q1665277#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Quadriceps femoris muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Patella"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Radial head of flexor digitorum superficialis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rectus abdominis muscle": {
+   "origin": {
+    "value": [
+     "Costal cartilage of fifth rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Costal cartilage of seventh rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the torso",
+     "lateral flexion of the torso",
+     "raising intra-abdominal pressure"
+    ],
+    "source": "wikidata:Q275150#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rectus anterior capitis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Atlas (C1)"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the head on the neck"
+    ],
+    "source": "wikidata:Q371122#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rectus femoris muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the knee joint",
+     "flexion of the hip joint"
+    ],
+    "source": "wikidata:Q1633822#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rectus lateralis capitis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "lateral flexion of the head on the neck"
+    ],
+    "source": "wikidata:Q579641#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rectus posterior major capitis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Axis (C2)"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the head on the neck",
+     "rotation of the head on the neck"
+    ],
+    "source": "wikidata:Q762258#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rectus posterior minor capitis muscle": {
+   "origin": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Atlas (C1)"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the head on the neck"
+    ],
+    "source": "wikidata:Q764361#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rhomboid major muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "medial rotation of the pectoral girdle",
+     "retraction of the pectoral girdle"
+    ],
+    "source": "wikidata:Q617389#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rhomboid minor muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "medial rotation of the pectoral girdle",
+     "retraction of the pectoral girdle"
+    ],
+    "source": "wikidata:Q901538#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Risorius muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Rotatores": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "rotation of the torso"
+    ],
+    "source": "wikidata:Q838638#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Sartorius muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the hip joint",
+     "flexion of the knee joint",
+     "medial rotation of the tibia at the knee joint"
+    ],
+    "source": "wikidata:Q740337#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Scalenus anterior muscle": {
+   "origin": {
+    "value": [
+     "First rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Vertebra C4",
+     "Vertebra C5",
+     "Vertebra C6"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the neck",
+     "lateral flexion of the neck",
+     "rotation of the neck"
+    ],
+    "source": "wikidata:Q914148#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Scalenus medius muscle": {
+   "origin": {
+    "value": [
+     "First rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Vertebra C6",
+     "Vertebra C7"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "lateral flexion of the neck"
+    ],
+    "source": "wikidata:Q1088115#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Scalenus posterior muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Vertebra C5"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "lateral flexion of the neck"
+    ],
+    "source": "wikidata:Q955110#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Scapular spinal part of deltoid muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Semimembranosus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the hip joint",
+     "flexion of the knee joint",
+     "medial rotation of the tibia at the knee joint"
+    ],
+    "source": "wikidata:Q1270633#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Semispinalis capitis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Semispinalis colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Semispinalis thoracis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Semitendinosus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the hip joint",
+     "flexion of the knee joint",
+     "medial rotation of the tibia at the knee joint"
+    ],
+    "source": "wikidata:Q1163035#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Serratus anterior muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Eighth rib",
+     "Fifth rib",
+     "First rib",
+     "Fourth rib",
+     "Ninth rib",
+     "Second rib",
+     "Seventh rib",
+     "Sixth rib",
+     "Third rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "lateral rotation of the pectoral girdle",
+     "protraction of the pectoral girdle"
+    ],
+    "source": "wikidata:Q743294#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Serratus posterior inferior muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Eleventh rib",
+     "Ninth rib",
+     "Tenth rib",
+     "Twelfth rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "exhalation"
+    ],
+    "source": "wikidata:Q920567#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Serratus posterior superior muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Fifth rib",
+     "Fourth rib",
+     "Second rib",
+     "Third rib"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "inhalation",
+     "inspiration movement"
+    ],
+    "source": "wikidata:Q1085940#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Short head of biceps brachii": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Biarticular"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Short head of biceps femoris": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Soleus muscle": {
+   "origin": {
+    "value": [
+     "Fibula",
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension",
+     "Extension hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q1954164#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Spinalis capitis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Occipital bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Spinalis colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Spinalis thoracis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Splenius capitis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "extension of the head",
+     "extension of the neck",
+     "lateral flexion of the head and neck",
+     "rotation of the head",
+     "rotation of the neck"
+    ],
+    "source": "wikidata:Q1088126#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Splenius colli muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Atlas (C1)",
+     "Axis (C2)"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the neck",
+     "lateral flexion of the neck",
+     "rotation of the neck"
+    ],
+    "source": "wikidata:Q1076423#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Sternocleidomastoid muscle": {
+   "origin": {
+    "value": [
+     "Clavicle",
+     "Manubrium of sternum"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Temporal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation",
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "flexion of the head",
+     "flexion of the neck",
+     "lateral flexion of the head and neck",
+     "lateral flexion of the neck",
+     "rotation of the head",
+     "rotation of the neck"
+    ],
+    "source": "wikidata:Q272830#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Sternocostal head of pectoralis major muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Body of sternum",
+     "Costal cartilage of sixth rib",
+     "Manubrium of sternum"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Sternohyoid muscle": {
+   "origin": {
+    "value": [
+     "Clavicle"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Hyoid bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Sternothyroid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Straight part of cricothyroid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Stylohyoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Stylopharyngeus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Subclavius muscle": {
+   "origin": {
+    "value": [
+     "Clavicle"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "stabilization of the clavicle"
+    ],
+    "source": "wikidata:Q130086#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Subscapularis muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the arm at the shoulder joint",
+     "medial rotation of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q130050#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superficial head of flexor pollicis brevis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superficial head of pronator teres": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superficial part of masseter": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superficial transverse metacarpal ligament": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superficial transverse metatarsal ligament": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superior gemellus muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "laterally rotation of the hip joint"
+    ],
+    "source": "wikidata:Q1732695#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superior head of lateral pterygoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superior oblique muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "extension of the head on the neck"
+    ],
+    "source": "wikidata:Q913366#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superior pharyngeal constrictor": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superior rectus muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Superior tarsus": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Supinator": {
+   "origin": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Radius"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "stabilisation",
+     "supination of the forearm"
+    ],
+    "source": "wikidata:Q524064#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Supraspinatus muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abduction of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q74959#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Temporalis muscle": {
+   "origin": {
+    "value": [
+     "Frontal bone",
+     "Parietal bone",
+     "Sphenoid bone",
+     "Temporal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Mandible"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Temporoparietalis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Tendinous arch of levator ani": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Tendon of extensor digitorum longus": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Tensor fasciae latae": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "abducting of the hip joint",
+     "extension of the knee joint",
+     "medially rotating the hip joint"
+    ],
+    "source": "wikidata:Q1429453#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Tensor veli palatini muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Teres major muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Internal rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the arm at the shoulder joint",
+     "extension of the arm via the shoulder joint",
+     "medial rotation of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q56658#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Teres minor muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Humerus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "adduction of the arm at the shoulder joint",
+     "lateral rotation of the arm at the shoulder joint"
+    ],
+    "source": "wikidata:Q74963#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Thyro-epiglottic part of thyro-arytenoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Thyrohyoid muscle": {
+   "origin": {
+    "value": [
+     "Hyoid bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Thyroid cartilage"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Levator"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Tibialis anterior muscle": {
+   "origin": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "First metatarsal bone",
+     "Medial cuneiform bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "dorsiflexion of the ankle joint",
+     "inversion of the foot"
+    ],
+    "source": "wikidata:Q975054#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Tibialis posterior muscle": {
+   "origin": {
+    "value": [
+     "Tibia"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "inversion of the foot",
+     "plantar flexion the ankle"
+    ],
+    "source": "wikidata:Q1551145#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Transverse arytenoid muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Transverse head of adductor hallucis": {
+   "origin": {
+    "value": [
+     "Sesamoid bones of foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": [
+     "Fifth metatarsal bone",
+     "Fourth metatarsal bone",
+     "Third metatarsal bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Adduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Transverse head of adductor pollicis": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Transverse part of trapezius muscle": {
+   "origin": {
+    "value": [
+     "Scapula"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Transversus abdominis muscle": {
+   "origin": {
+    "value": [
+     "Hip bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Orbicular/Constrictor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "exhalation",
+     "raising intra-abdominal pressure"
+    ],
+    "source": "wikidata:Q1427665#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Transversus thoracis muscle": {
+   "origin": {
+    "value": [
+     "Body of sternum",
+     "Xiphoid process"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Depressor"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "exhalation"
+    ],
+    "source": "wikidata:Q936699#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Trapezius muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": [
+     "extension of the head",
+     "extension of the neck",
+     "lateral flexion of the head and neck",
+     "lateral rotation of the pectoral girdle",
+     "retraction of the pectoral girdle"
+    ],
+    "source": "wikidata:Q204113#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Triceps brachii muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the elbow joint"
+    ],
+    "source": "wikidata:Q83379#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Triceps surae muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Calcaneus"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension hand-foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "plantarflexion"
+    ],
+    "source": "wikidata:Q431282#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Trochanteric insertion": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "movementCategory": {
+    "value": [
+     "External rotation"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Trochlea of superior oblique muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Ulnar head of extensor carpi ulnaris": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Ulnar head of flexor carpi ulnaris": {
+   "origin": {
+    "value": [
+     "Ulna"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Flexion hand/foot"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Vastus intermedius muscle": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the knee joint"
+    ],
+    "source": "wikidata:Q1812578#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Vastus lateralis muscle": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the knee joint"
+    ],
+    "source": "wikidata:Q975459#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Vastus medialis muscle": {
+   "origin": {
+    "value": [
+     "Femur"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Extension"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": [
+     "extension of the knee joint"
+    ],
+    "source": "wikidata:Q1590935#P3310"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Vocalis muscle": {
+   "origin": {
+    "value": null,
+    "status": "TODO"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": null,
+    "status": "TODO"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Zygomaticus major muscle": {
+   "origin": {
+    "value": [
+     "Zygomatic bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  },
+  "Zygomaticus minor muscle": {
+   "origin": {
+    "value": [
+     "Zygomatic bone"
+    ],
+    "source": "z-anatomy"
+   },
+   "insertion": {
+    "value": null,
+    "status": "TODO"
+   },
+   "movementCategory": {
+    "value": [
+     "Abduction"
+    ],
+    "source": "z-anatomy"
+   },
+   "action": {
+    "value": null,
+    "status": "TODO"
+   },
+   "nerveSupply": {
+    "value": null,
+    "status": "TODO"
+   },
+   "bloodSupply": {
+    "value": null,
+    "status": "TODO"
+   }
+  }
+ }
+}

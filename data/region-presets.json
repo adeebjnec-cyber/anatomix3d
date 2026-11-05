@@ -1,0 +1,160 @@
+{
+  "about": "One-click regional views (Phase 3C). Each preset lists boxes; a box is the bounding box of the listed 'Regions of the body' skin patches (catalog system 'regions', ids from catalog.json), optionally only one side ('l' or 'r'). With split=true every direct child of a listed group gets its own box per side, which follows a limb more closely. A preset-level 'side' shows only structures of that side (midline structures are left out). A loaded structure is shown when the centre of its catalog bounding box lies inside any box (grown by 'margin' metres) and inside no 'exclude' box, or belongs to a catalog group listed in 'include' (Z-Anatomy's own grouping, e.g. the shoulder girdle in 'Bones of upper limb'); groups in 'omit' are never shown. 'view' is the direction from the target to the camera (+x = the body's left, +y = up, +z = front). Add presets here; no code changes needed. The boxes are an approximation drawn from skin regions, not an anatomical definition of each region.",
+  "margin": 0.015,
+  "presets": [
+    {
+      "id": "head-neck",
+      "name": "Head & neck",
+      "view": [0.35, 0.1, 1],
+      "boxes": [
+        {"regions": ["regions:Regions of head.g", "regions:Regions of neck.g", "regions:Hairs of head"]}
+      ]
+    },
+    {
+      "id": "thorax",
+      "name": "Thorax",
+      "view": [0, 0, 1],
+      "boxes": [
+        {
+          "regions": [
+            "regions:Regions of thorax.g",
+            "regions:Interscapular region.l",
+            "regions:Interscapular region.r",
+            "regions:Scapular region.l",
+            "regions:Scapular region.r",
+            "regions:Infrascapular region.l",
+            "regions:Infrascapular region.r"
+          ]
+        }
+      ],
+      "exclude": [
+        {"regions": ["regions:Regions of upper limb.g"], "split": true}
+      ],
+      "include": ["skeletal:Thoracic skeleton.g", "muscular:Muscles of thorax.g", "muscular:Fasciae of thorax.g"],
+      "omit": ["muscular:Muscles of abdomen.g", "muscular:Fasciae of abdomen.g"]
+    },
+    {
+      "id": "abdomen",
+      "name": "Abdomen",
+      "view": [0, 0, 1],
+      "boxes": [
+        {
+          "regions": [
+            "regions:Epigastric region.l",
+            "regions:Epigastric region.r",
+            "regions:Hypochondriac region.l",
+            "regions:Hypochondriac region.r",
+            "regions:Umbilical region.l",
+            "regions:Umbilical region.r",
+            "regions:Lateral region of abdomen.l",
+            "regions:Lateral region of abdomen.r",
+            "regions:Lumbar region.l",
+            "regions:Lumbar region.r"
+          ]
+        }
+      ],
+      "exclude": [
+        {"regions": ["regions:Regions of upper limb.g"], "split": true}
+      ],
+      "include": ["muscular:Muscles of abdomen.g", "muscular:Fasciae of abdomen.g"]
+    },
+    {
+      "id": "pelvis",
+      "name": "Pelvis",
+      "view": [0, 0, 1],
+      "boxes": [
+        {
+          "regions": [
+            "regions:Hypogastric region.l",
+            "regions:Hypogastric region.r",
+            "regions:Inguinal region.l",
+            "regions:Inguinal region.r",
+            "regions:Regions of perineum.g",
+            "regions:Sacral region.l",
+            "regions:Sacral region.r",
+            "regions:Pubic hairs"
+          ]
+        }
+      ],
+      "exclude": [
+        {"regions": ["regions:Regions of upper limb.g"], "split": true}
+      ],
+      "include": ["skeletal:Bones of pelvic girdle.g", "muscular:Muscles of pelvis.g", "joints:Joints of pelvic girdle.g"]
+    },
+    {
+      "id": "back",
+      "name": "Back",
+      "view": [0, 0, -1],
+      "boxes": [
+        {"regions": ["regions:Regions of back.g"]}
+      ],
+      "exclude": [
+        {"regions": ["regions:Regions of upper limb.g"], "split": true}
+      ]
+    },
+    {
+      "id": "upper-limb-l",
+      "name": "Left upper limb",
+      "view": [0.6, 0, 1],
+      "side": "l",
+      "boxes": [
+        {"regions": ["regions:Regions of upper limb.g"], "side": "l", "split": true}
+      ],
+      "include": [
+        "skeletal:Bones of upper limb.g",
+        "joints:Joints of upper limb.g",
+        "muscular:Muscular system of upper limb.g",
+        "muscular:Fasciae of upper limb.g",
+        "lymphoid:Lymph nodes of upper limb.g"
+      ]
+    },
+    {
+      "id": "upper-limb-r",
+      "name": "Right upper limb",
+      "view": [-0.6, 0, 1],
+      "side": "r",
+      "boxes": [
+        {"regions": ["regions:Regions of upper limb.g"], "side": "r", "split": true}
+      ],
+      "include": [
+        "skeletal:Bones of upper limb.g",
+        "joints:Joints of upper limb.g",
+        "muscular:Muscular system of upper limb.g",
+        "muscular:Fasciae of upper limb.g",
+        "lymphoid:Lymph nodes of upper limb.g"
+      ]
+    },
+    {
+      "id": "lower-limb-l",
+      "name": "Left lower limb",
+      "view": [0.4, 0, 1],
+      "side": "l",
+      "boxes": [
+        {"regions": ["regions:Regions of lower limb.g"], "side": "l", "split": true}
+      ],
+      "include": [
+        "skeletal:Bones of lower limb.g",
+        "joints:Joints of lower limb.g",
+        "muscular:Muscular system of lower limb.g",
+        "muscular:Fasciae of lower limb.g",
+        "lymphoid:Lymph nodes of lower limb.g"
+      ]
+    },
+    {
+      "id": "lower-limb-r",
+      "name": "Right lower limb",
+      "view": [-0.4, 0, 1],
+      "side": "r",
+      "boxes": [
+        {"regions": ["regions:Regions of lower limb.g"], "side": "r", "split": true}
+      ],
+      "include": [
+        "skeletal:Bones of lower limb.g",
+        "joints:Joints of lower limb.g",
+        "muscular:Muscular system of lower limb.g",
+        "muscular:Fasciae of lower limb.g",
+        "lymphoid:Lymph nodes of lower limb.g"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+ {
+  "code": "en",
+  "name": "English",
+  "dir": "ltr",
+  "coverage": 1,
+  "words": {
+   "left": "left",
+   "right": "right",
+   "origin": "origin",
+   "insertion": "insertion"
+  }
+ },
+ {
+  "code": "la",
+  "name": "Latina (TA2)",
+  "dir": "ltr",
+  "coverage": 0.983,
+  "words": {
+   "left": "sinister",
+   "right": "dexter",
+   "origin": null,
+   "insertion": null
+  }
+ },
+ {
+  "code": "fr",
+  "name": "Français",
+  "dir": "ltr",
+  "coverage": 0.983,
+  "words": {
+   "left": "gauche",
+   "right": "droite",
+   "origin": null,
+   "insertion": null
+  }
+ },
+ {
+  "code": "es",
+  "name": "Español",
+  "dir": "ltr",
+  "coverage": 0.983,
+  "words": {
+   "left": "izquierdo",
+   "right": "derecho",
+   "origin": null,
+   "insertion": null
+  }
+ },
+ {
+  "code": "pt",
+  "name": "Português",
+  "dir": "ltr",
+  "coverage": 0.983,
+  "words": {
+   "left": "esquerda",
+   "right": "direito",
+   "origin": null,
+   "insertion": null
+  }
+ },
+ {
+  "code": "it",
+  "name": "Italiano",
+  "dir": "ltr",
+  "coverage": 0.982,
+  "words": {
+   "left": "sinistro",
+   "right": "destro",
+   "origin": null,
+   "insertion": null
+  }
+ },
+ {
+  "code": "fa",
+  "name": "فارسی",
+  "dir": "rtl",
+  "coverage": 0.982,
+  "words": {
+   "left": "چپ",
+   "right": "راست",
+   "origin": null,
+   "insertion": null
+  }
+ }
+]

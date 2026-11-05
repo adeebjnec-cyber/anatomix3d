@@ -1,0 +1,82 @@
+{
+  "about": "Guided dissections (Phase 5). Each dissection loads 'systems', applies a regional view ('region' = id from region-presets.json) and then walks through steps. Step actions: 'hide' (catalog group or system ids), 'show' (ids), 'peel' (muscle depth layer to remove, 1 = outermost; layers are computed by ray casting, not named anatomical layers). Steps beyond the model's deepest layer are skipped. The app lists what each step removed and what became exposed, using catalog names only — no descriptive text is written here, so nothing medical is invented. Add dissections here; no code changes needed.",
+  "dissections": [
+    {
+      "id": "upper-limb-l",
+      "name": "Left upper limb: skin to bone",
+      "systems": ["regions", "skeletal", "muscular"],
+      "region": "upper-limb-l",
+      "steps": [
+        { "title": "Skin surface" },
+        { "title": "Skin removed", "hide": ["regions"] },
+        { "title": "Muscle layer 1 removed", "peel": 1 },
+        { "title": "Muscle layer 2 removed", "peel": 2 },
+        { "title": "Muscle layer 3 removed", "peel": 3 },
+        { "title": "Muscle layer 4 removed", "peel": 4 },
+        { "title": "Muscle layer 5 removed", "peel": 5 },
+        { "title": "All muscles removed: bones", "hide": ["muscular"] }
+      ]
+    },
+    {
+      "id": "lower-limb-l",
+      "name": "Left lower limb: skin to bone",
+      "systems": ["regions", "skeletal", "muscular"],
+      "region": "lower-limb-l",
+      "steps": [
+        { "title": "Skin surface" },
+        { "title": "Skin removed", "hide": ["regions"] },
+        { "title": "Muscle layer 1 removed", "peel": 1 },
+        { "title": "Muscle layer 2 removed", "peel": 2 },
+        { "title": "Muscle layer 3 removed", "peel": 3 },
+        { "title": "Muscle layer 4 removed", "peel": 4 },
+        { "title": "Muscle layer 5 removed", "peel": 5 },
+        { "title": "All muscles removed: bones", "hide": ["muscular"] }
+      ]
+    },
+    {
+      "id": "thorax",
+      "name": "Thorax: skin to heart and lungs",
+      "systems": ["regions", "skeletal", "muscular", "cardiovascular", "respiratory"],
+      "region": "thorax",
+      "steps": [
+        { "title": "Skin surface" },
+        { "title": "Skin removed", "hide": ["regions"] },
+        { "title": "Muscle layer 1 removed", "peel": 1 },
+        { "title": "Muscle layer 2 removed", "peel": 2 },
+        { "title": "Muscle layer 3 removed", "peel": 3 },
+        { "title": "Remaining muscles removed", "hide": ["muscular"] },
+        { "title": "Thoracic skeleton removed", "hide": ["skeletal:Thoracic skeleton.g"] }
+      ]
+    },
+    {
+      "id": "abdomen",
+      "name": "Abdomen: skin to organs",
+      "systems": ["regions", "skeletal", "muscular", "digestive", "urinary"],
+      "region": "abdomen",
+      "steps": [
+        { "title": "Skin surface" },
+        { "title": "Skin removed", "hide": ["regions"] },
+        { "title": "Muscle layer 1 removed", "peel": 1 },
+        { "title": "Muscle layer 2 removed", "peel": 2 },
+        { "title": "Muscle layer 3 removed", "peel": 3 },
+        { "title": "Remaining muscles removed", "hide": ["muscular"] }
+      ]
+    },
+    {
+      "id": "back",
+      "name": "Back: skin to vertebral column",
+      "systems": ["regions", "skeletal", "muscular"],
+      "region": "back",
+      "steps": [
+        { "title": "Skin surface" },
+        { "title": "Skin removed", "hide": ["regions"] },
+        { "title": "Muscle layer 1 removed", "peel": 1 },
+        { "title": "Muscle layer 2 removed", "peel": 2 },
+        { "title": "Muscle layer 3 removed", "peel": 3 },
+        { "title": "Muscle layer 4 removed", "peel": 4 },
+        { "title": "Muscle layer 5 removed", "peel": 5 },
+        { "title": "All muscles removed: bones", "hide": ["muscular"] }
+      ]
+    }
+  ]
+}

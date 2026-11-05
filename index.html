@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>Anatomix 3D</title>
+    <meta name="author" content="Adeeb" />
+    <!-- Installable web app (iPhone/iPad: Safari → Share → Add to Home Screen) -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="icons/icon-192.png" />
+    <meta name="theme-color" content="#050608" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Anatomix 3D" />
+    <script type="module" crossorigin src="./assets/index-B2_NSLaz.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-mDSjvlrq.css">
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="viewport"></canvas>
+
+      <header class="topbar ui">
+        <button class="icon-btn" data-action="toggle-systems" title="Systems & regions (M)">☰</button>
+        <h1 class="brand">Anatomix 3D <span class="by">Developed by Adeeb</span></h1>
+        <div class="search">
+          <input id="search-input" type="search" placeholder="Search structures… (/)" autocomplete="off" />
+          <ul id="search-results" class="search-results" hidden></ul>
+        </div>
+        <select id="lang-select" class="lang-select" title="Language for structure names"></select>
+        <button class="icon-btn" data-action="toggle-quiz" title="Quiz &amp; guided dissection (Q)">🎓</button>
+        <button class="icon-btn" data-action="toggle-cards" title="Flashcards with spaced repetition (F)">🃏</button>
+        <button class="icon-btn" data-action="toggle-tools" title="Tools: section plane, pins, screenshot (K)">✂</button>
+        <button class="icon-btn" data-action="toggle-share" title="Share a link to this scene (S)">🔗</button>
+        <button class="icon-btn" data-action="toggle-bookmarks" title="Bookmarks (B)">★</button>
+        <button class="icon-btn" data-action="toggle-settings" title="Settings">⚙</button>
+      </header>
+
+      <aside id="systems-panel" class="panel left ui" hidden>
+        <div class="panel-head"><h2>Systems</h2><button class="icon-btn small" data-action="toggle-systems">✕</button></div>
+        <div id="region-presets" class="region-presets"></div>
+        <div id="systems-tree" class="tree"></div>
+      </aside>
+
+      <aside id="details-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2 id="details-title"></h2><button class="icon-btn small" data-action="close-details">✕</button></div>
+        <div id="details-body" class="details-body"></div>
+      </aside>
+
+      <aside id="bookmarks-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2>Bookmarks</h2><button class="icon-btn small" data-action="toggle-bookmarks">✕</button></div>
+        <div class="panel-actions">
+          <button data-action="add-bookmark">＋ Save current view</button>
+          <button data-action="export-bookmarks">Export</button>
+          <label class="file-btn">Import<input id="import-bookmarks" type="file" accept="application/json" hidden /></label>
+        </div>
+        <ul id="bookmarks-list" class="bookmarks-list"></ul>
+      </aside>
+
+      <aside id="tracer-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2 id="tracer-title">Blood supply</h2><button class="icon-btn small" data-action="end-trace" title="End tracing (Esc)">✕</button></div>
+        <div id="tracer-body" class="tracer-body"></div>
+      </aside>
+
+      <aside id="quiz-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2>Quiz &amp; dissection</h2><button class="icon-btn small" data-action="toggle-quiz" title="Close (ends a running quiz)">✕</button></div>
+        <div id="quiz-body" class="tools-body quiz-body"></div>
+      </aside>
+
+      <aside id="cards-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2>Flashcards</h2><button class="icon-btn small" data-action="toggle-cards" title="Close (ends a study session)">✕</button></div>
+        <div id="cards-body" class="tools-body quiz-body"></div>
+      </aside>
+
+      <aside id="share-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2>Share scene</h2><button class="icon-btn small" data-action="toggle-share">✕</button></div>
+        <div id="share-body" class="tools-body quiz-body"></div>
+      </aside>
+
+      <aside id="tools-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2>Tools</h2><button class="icon-btn small" data-action="toggle-tools">✕</button></div>
+        <div id="tools-body" class="tools-body"></div>
+      </aside>
+
+      <aside id="settings-panel" class="panel right ui" hidden>
+        <div class="panel-head"><h2>Settings</h2><button class="icon-btn small" data-action="toggle-settings">✕</button></div>
+        <div id="settings-body" class="settings-body"></div>
+      </aside>
+
+      <nav class="toolbar ui" id="toolbar">
+        <button data-action="hide" title="Hide selected (H)">Hide</button>
+        <button data-action="isolate" title="Isolate selected (I)">Isolate</button>
+        <button data-action="transparent" title="Make selected see-through (T)">X-ray</button>
+        <button data-action="ghost-others" title="Fade everything except selection (G)">Fade others</button>
+        <button data-action="layer-up" title="Remove outer muscle layer ([)">Peel −</button>
+        <button data-action="layer-down" title="Restore muscle layer (])">Peel +</button>
+        <button data-action="multi" title="Multi-select (hold Ctrl)">Multi</button>
+        <button data-action="pins" title="Show labels (L)">Labels</button>
+        <button data-action="feature-pins" title="Pins: named features of the selected structure, or every structure of a selected part (N)">Pins</button>
+        <button data-action="mirror" title="Show one side only (R)">One side</button>
+        <button data-action="mirror-select" title="Mirror mode: selecting, hiding and fading also does the other side (Shift+O)">Mirror</button>
+        <button data-action="opposite" title="Select the other side (O)">Opposite</button>
+        <button data-action="undo" title="Undo (Ctrl+Z)">Undo</button>
+        <button data-action="redo" title="Redo (Ctrl+Y or Ctrl+Shift+Z)">Redo</button>
+        <button data-action="show-all" title="Show everything (A)">Show all</button>
+        <button data-action="reset-view" title="Reset camera (Home)">Reset</button>
+        <button data-action="hide-ui" title="Hide interface (U)">Hide UI</button>
+      </nav>
+
+      <div id="welcome" class="welcome">
+        <div class="welcome-card">
+          <h2>Anatomix 3D</h2>
+          <p class="dedication">Specially made for Iffat ♥</p>
+          <p class="by">Developed by Adeeb</p>
+          <button data-action="close-welcome">Start exploring</button>
+        </div>
+      </div>
+
+      <div id="labels" class="labels"></div>
+      <div id="user-pins" class="user-pins"></div>
+      <div id="hover-tip" class="hover-tip" hidden></div>
+      <div id="loading" class="loading" hidden><div class="bar"><span></span></div><p></p></div>
+      <div id="toast" class="toast" hidden></div>
+      <button id="show-ui" class="show-ui" data-action="hide-ui" hidden>Show interface</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "about": "Exam tracks for the quiz (Phase 5). A track is a set of catalog groups (ids from catalog.json) plus the question kinds to ask. Kinds: find (click the named structure), name (type the highlighted structure's name), choice (pick its name from 4), origin / insertion (from muscle-facts.json, Z-Anatomy attachment areas only), branch (vascular-graph.json branch_of edges), supply (vascular-graph.json arterial_supply edges). Fact questions are only generated where sourced data exists; every answer shows its source. 'systems' are loaded before the quiz starts. Add tracks here; no code changes needed.",
+  "tracks": [
+    { "id": "bones-upper-limb", "name": "Bones of the upper limb", "systems": ["skeletal"], "groups": ["skeletal:Bones of upper limb.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "bones-lower-limb", "name": "Bones of the lower limb", "systems": ["skeletal"], "groups": ["skeletal:Bones of lower limb.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "skull", "name": "Skull and teeth", "systems": ["skeletal"], "groups": ["skeletal:Cranium.g", "skeletal:Auditory ossicles.g", "skeletal:Teeth.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "spine-thorax", "name": "Vertebral column and thoracic skeleton", "systems": ["skeletal"], "groups": ["skeletal:Vertebral column.g", "skeletal:Thoracic skeleton.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "muscles-upper-limb", "name": "Muscles of the upper limb", "systems": ["skeletal", "muscular"], "groups": ["muscular:Muscles of upper limb.g"], "kinds": ["find", "name", "choice", "origin", "insertion"] },
+    { "id": "muscles-lower-limb", "name": "Muscles of the lower limb", "systems": ["skeletal", "muscular"], "groups": ["muscular:Muscles of lower limb.g"], "kinds": ["find", "name", "choice", "origin", "insertion"] },
+    { "id": "muscles-head-neck", "name": "Muscles of head and neck", "systems": ["skeletal", "muscular"], "groups": ["muscular:Cranial part of muscular system.g", "muscular:Cervical part of muscular system.g"], "kinds": ["find", "name", "choice", "origin", "insertion"] },
+    { "id": "muscles-trunk", "name": "Muscles of the back, thorax and abdomen", "systems": ["skeletal", "muscular"], "groups": ["muscular:Dorsal part of muscular system.g", "muscular:Thoracic part of muscular system.g", "muscular:Abdominal part of muscular system.g", "muscular:Pelvic part of muscular system.g"], "kinds": ["find", "name", "choice", "origin", "insertion"] },
+    { "id": "joints", "name": "Joints and ligaments of the limbs", "systems": ["skeletal", "joints"], "groups": ["joints:Joints of upper limb.g", "joints:Joints of lower limb.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "heart", "name": "Heart and coronary vessels", "systems": ["cardiovascular"], "groups": ["cardiovascular:Heart.g", "cardiovascular:Arteries of heart.g", "cardiovascular:Cardiac veins.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "arteries", "name": "Systemic arteries and their branches", "systems": ["skeletal", "cardiovascular"], "groups": ["cardiovascular:Systemic arteries.g"], "kinds": ["find", "choice", "branch"] },
+    { "id": "blood-supply", "name": "Arterial supply (sourced)", "systems": ["skeletal", "muscular", "cardiovascular"], "groups": ["muscular:Muscles of upper limb.g", "muscular:Muscles of lower limb.g", "nervous:Brain.g"], "kinds": ["supply"] },
+    { "id": "brain", "name": "Brain and spinal cord", "systems": ["nervous"], "groups": ["nervous:Brain.g", "nervous:Spinal cord.g"], "kinds": ["find", "name", "choice"] },
+    { "id": "cranial-nerves", "name": "Cranial and spinal nerves", "systems": ["skeletal", "nervous"], "groups": ["nervous:Cranial nerves.g", "nervous:Spinal nerves.g"], "kinds": ["find", "choice"] },
+    { "id": "viscera", "name": "Thoracic and abdominal organs", "systems": ["respiratory", "digestive", "urinary", "endocrine"], "groups": ["visceral:Respiratory system.g", "visceral:Digestive system.g", "visceral:Urinary system.g", "visceral:Endocrine glands.g"], "kinds": ["find", "name", "choice"] }
+  ]
+}

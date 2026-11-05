@@ -1,7 +1,7 @@
 {
   "name": "Anatomix 3D",
   "short_name": "Anatomix 3D",
-  "description": "Interactive 3D human anatomy atlas. Developed by Adeeb, specially made for Iffat.",
+  "description": "Interactive 3D human anatomy atlas. Developed by Adeeb.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
